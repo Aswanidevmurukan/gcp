@@ -1,0 +1,13 @@
+host_project     = ""
+project_id  = "prod1-svc-fufb"
+region           = "us-central1"
+cluster_name     = "bayvrio-prod"
+network_name     = "vpc-prod-shared"
+subnet_name      = "subnet-prod"
+pods_range_name  = "bayvrio-gke-subnet-pods"
+svc_range_name   = "bayvrio-gke-subnet-services"
+domain_suffix    = "bayvrio.intenal"
+disable_services_on_destroy = "false"
+namespace = "sdsd"
+k8s_sa = "ffsds"
+
